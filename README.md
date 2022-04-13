@@ -16,6 +16,7 @@
    4. It supports JSX , which helps us to write html code inside javascript.
    5. It follows Unidirectional data flow or data binding.
    6. Using React native we can create mobile - application as well which supports both Android and iOS.
+   7. It helps to create single page applications.
    
    
 
@@ -68,6 +69,23 @@ Babel is an inbuild transpiler that converts the ECMA Script 6 code to an ECMA S
 
 
 ## Difference between Class Component and Functional Component
+   #### Class Component :- 
+   1. A class component requires you to extend from React. Component and create a render function which returns a React element.
+   2. Class component can be used when you are doing data operations and server calls.
+   3. It is also known as Stateful components because they implement logic and state.
+   4. It must have the render() method returning JSX.
+   5. It contains lifecycle methods.
+   6. Constructor are used as it needs to store state.
+
+
+   
+   #### Function Component :-
+   1. A functional component is just a plain JavaScript function that accepts props as an argument and returns a React element.
+   2. Functional components can be used mostly when we need to create dumb or stateless components.
+   3. It is also known as Stateless components as they simply accept data and display them in some form, that they are mainly responsible for rendering UI.
+   4. It does not have state variables, it uses hooks like useState, useParams, etc.
+   5. It uses hooks like useEffect in place of react life cycle method.
+   6. Complete constructor structure is not required in these components, so they are easy to handle.
 
 
 

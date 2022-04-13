@@ -96,6 +96,12 @@ Whereas, Default exports are created by including a default tag in the export. U
 
 
 ## Props Vs State
+   #### Props :-
+   In react all the components are connected to each other like  parent-child relation but if we want to pass data from one component to another then we use props. Props are used to pass data from parent component to child component.
+   
+   
+   #### State :-
+   React components has a built-in state object. The state object is where you store property values that belongs to the component. When the state object changes, the component re-renders.
 
 
 

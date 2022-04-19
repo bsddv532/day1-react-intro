@@ -118,16 +118,28 @@ There are three phases of life cycle of a component :-
    Mounting Phase has 4 built-in-methods i.e. 
    
    #### i. constructor()
-   #### ii. getDerivedStateFromProps()
+   #### ii. static getDerivedStateFromProps()
    #### iii. render()
    #### iv. componentDidMount()
    
 ### 2. Updating Phase :- 
    When a component is being re-rendered based on change in state or props.
    
+   Updating Phase has 5 built-in-methods i.e.
+   
+   #### i. static getDerivedStateFromProps()
+   #### ii. shouldComponentUpdate()
+   #### iii. render()
+   #### iv. getSnapshotBeforeUpdate()
+   #### v. componentDidUpdate()
+   
 
 ### 3. Unmounting Phase :-
    When a component is being removed from the DOM.
+   
+   Unmounting Phase has 5 built-in-methods i.e.
+   
+   #### i. componentWillUnmount()
       
    
 

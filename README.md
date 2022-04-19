@@ -106,3 +106,28 @@ Whereas, Default exports are created by including a default tag in the export. U
 
 
 ## Phases & Methods of Life cycle of a component
+
+There are three phases of life cycle of a component :-
+1. Mounting
+2. Updating
+3. Unmounting
+
+### 1. Mounting Phase :-
+   When an instance of component is created and inserted into DOM.
+   
+   Mounting Phase has 4 built-in-methods i.e. 
+   
+   #### i. constructor()
+   #### ii. getDerivedStateFromProps()
+   #### iii. render()
+   #### iv. componentDidMount()
+   
+### 2. Updating Phase :- 
+   When a component is being re-rendered based on change in state or props.
+   
+
+### 3. Unmounting Phase :-
+   When a component is being removed from the DOM.
+      
+   
+

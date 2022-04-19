@@ -22,6 +22,7 @@
 
 ## What is SPA ?
    SPA stands for Single Page Application. It means whenever any event is occured in an application then that application not getting reloading , such type of appliactions is known as Single Page Application. When we create React application using CRA, it always create the application which will be Single page application.
+   In react by using router we create single page applications.
    
    And if that appliaction is getting reloading then that type of application is known as Multipage Application. 
    
